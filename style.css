@@ -1,0 +1,52 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+header, footer {
+    background-color: aqua;
+   
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.navbar ul li a{
+    padding: 15px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kelete{
+    
+    padding-top: 15px;
+}
+ 
+.nzumba{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main img{
+    justify-content: space-between;
+}
